@@ -1,0 +1,20 @@
+TypeScript is a superset of JavaScript. A program written in TypeScript has to be
+transpiled into JavaScript first, and then it can be executed in the browser or a
+standalone JavaScript engine.
+
+Errors are caught by the TypeScript static code analyzer as you type, even before
+you compile code with the Typescript compiler (tsc).
+
+TypeScript gives you the benefits of statically typed languages when and where
+you want it, without stopping you from using the good old dynamic JavaScript
+objects when you want them.
+
+TypeScript follows the latest specifications of ECMAScript and adds to them
+types, interfaces, decorators, class member variables (fields), generics, enums,
+the keywords public , protected , and private , and more. Check the Type-
+Script roadmap at https://github.com/Microsoft/TypeScript/wiki/Roadmap
+to see what’s available now and what’s coming in future releases of TypeScript.
+
+To start a new TypeScript project, run the command tsc --init in any direc-
+tory. It’ll create the tsconfig.json file for you, containing all the compiler’s
+options with most of them commented out. Uncomment them as needed.
